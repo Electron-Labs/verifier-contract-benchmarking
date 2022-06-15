@@ -7,6 +7,11 @@ Execution benchmarking for a test verifier contract using Geth (v1.9.1) and [bso
 git submodule init --recursive
 cd bsol
 sh install.sh
+
+### Use svm to install solidity 0.7.6
+cargo install svm-rs
+svm install 0.7.6
+svm use 0.7.6
 ```
 
 ### Running benchmark
